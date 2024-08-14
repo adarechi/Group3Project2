@@ -17,8 +17,10 @@ def insert_into(schema_name, table_name, columns):
     insert_query = sql.SQL(
         f"INSERT INTO {schema_name}.{table_name} ({columns}) VALUES ({', '.join(['%s'] * count)})")
     return insert_query
+
 def person_generate(cursor, schema_name, table_name):
     id = get_start_id(cursor, schema_name, table_name)
+    house_id = get_start_id(cursor, schema_name, table_house) - 5000
     for i in range(10000):
         id = id+1
         age = random.randint(18, 100)
@@ -26,13 +28,18 @@ def person_generate(cursor, schema_name, table_name):
         money = random.randint(100, 10000000000000000) #10 000 000 000 000 000
         second_name = f'UserSurname_{i}_Group3'
         sex = True if i % 2==0 else False
-        house_id = None
+        if i <= 3000:
+            house_id = house_id + 1
+            # SQL-запрос для вставки данных
+            insert_query = insert_into(schema_name, table_name,"id, age, first_name, money, second_name, sex, house_id")
+            # Выполнение запроса
+            cursor.execute(insert_query, (id, age, first_name, money, second_name, sex, house_id))
+        else:
+            # SQL-запрос для вставки данных
+            insert_query = insert_into(schema_name, table_name,"id, age, first_name, money, second_name, sex, house_id")
+            # Выполнение запроса
+            cursor.execute(insert_query, (id, age, first_name, money, second_name, sex, None))
 
-        # SQL-запрос для вставки данных
-        insert_query = insert_into(schema_name, table_name, "id, age, first_name, money, second_name, sex, house_id")
-
-        # Выполнение запроса
-        cursor.execute(insert_query, (id, age, first_name, money, second_name, sex, house_id))
 def house_generate(cursor, schema_name, table_name):
     # house: id, floor_count, price
     id = get_start_id(cursor, schema_name, table_name)
@@ -125,28 +132,28 @@ try:
     table_parking_place = 'parking_place' # parking_place: id, is_covered, is_warm, places_count, house_id
 
     # Генерация данных
-
-    # Генерация данных для таблицы "person": id, age, first_name, money, second_name, sex, house_id
-    person_generate(cursor, schema_name, table_person)
-    # Фиксация изменений в таблице person
-    changes_fics(conn, table_person)
-
     '''
-    # Генерация данных для таблицы "car": id, mark, model, price, engine_type_id, person_id
-    car_generate(cursor, schema_name, table_car, table_person)
-    # Фиксация изменений в таблице car
-    changes_fics(conn, table_car)
-
     # Генерация данных для таблицы "house": id, floor_count, price
     house_generate(cursor, schema_name, table_house)
     # Фиксация изменений в таблице house
     changes_fics(conn, table_house)
-
+    
+    # Генерация данных для таблицы "person": id, age, first_name, money, second_name, sex, house_id
+    person_generate(cursor, schema_name, table_person)
+    # Фиксация изменений в таблице person
+    changes_fics(conn, table_person)
+    
+    # Генерация данных для таблицы "car": id, mark, model, price, engine_type_id, person_id
+    car_generate(cursor, schema_name, table_car, table_person)
+    # Фиксация изменений в таблице car
+    changes_fics(conn, table_car)
+    '''
+    
     # Генерация данных для таблицы "parking_place": id, is_covered, is_warm, places_count, house_id
     parking_place_generate(cursor, schema_name, table_parking_place, table_house)
     # Фиксация изменений в таблице parking_place
     changes_fics(conn, table_parking_place)
-    '''
+
 
 except psycopg2.Error as e:
     print("Ошибка при работе с PostgreSQL:", e)
