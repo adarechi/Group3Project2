@@ -1,0 +1,16 @@
+[parameter:carId]
+Format="%lu"
+GenerateNewVal="EachIteration"
+MaxValue="100"
+MinValue="1"
+OriginalValue=""
+ParamName="carId"
+Type="Random"
+[parameter:userId]
+Format="%lu"
+GenerateNewVal="EachIteration"
+MaxValue="10000"
+MinValue="1"
+OriginalValue=""
+ParamName="userId"
+Type="Random"

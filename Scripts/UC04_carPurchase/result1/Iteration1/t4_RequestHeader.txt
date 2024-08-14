@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Sec-GPC: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 77.50.236.214:42030
+Cookie: jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBwZmxiLnJ1Iiwicm9sZXMiOlsiYWRtaW4iXSwiaXNzIjoiaHR0cDovLzc3LjUwLjIzNi4yMDM6NDg3OS9sb2dpbiIsImV4cCI6MTcyMzY1MzAzNH0.QdpTMNHoGuYSR_iml7B1QsRxUsks5ejxosHU9S5NSTs
+If-None-Match: "b9e514c233e8d1c247910bf136a3332c7c8198c5"
+

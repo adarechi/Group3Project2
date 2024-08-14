@@ -1,0 +1,24 @@
+[t4]
+FileName2=t1_4_2.UNK
+RawStepEndTime=1723631433320
+FileName5=t1_1_logo192.png
+FileName4=t1_2_main.UNK
+FileName6=t1_0_main.css
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=77.50.236.214:42030_2
+ContentType=text/html
+URL1=http://77.50.236.214:42030/
+URL2=http://77.50.236.214:42030/static/js/2.7c253607.chunk.js
+URL3=http://77.50.236.214:42030/static/css/2.b26b6ae6.chunk.css
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=http://77.50.236.214:42030/static/js/main.e989115e.chunk.js
+URL5=http://77.50.236.214:42030/logo192.png
+URL6=http://77.50.236.214:42030/static/css/main.91169c33.chunk.css
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1723631433250
+Total=6
+StepName=Url: 77.50.236.214:42030_2
+FileName1=t4.html
+FileName3=t1_3_2.css

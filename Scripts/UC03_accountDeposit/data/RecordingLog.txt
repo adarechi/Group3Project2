@@ -1,0 +1,1060 @@
+[API Trapper      (2890:1d24)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[API Trapper      (7680:5600)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (7680:3134)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7680:3134)] Load Network Traffic Analyzers:
+[Network Analyzer (7680:3134)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (7680:3134)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (7680:3134)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (7680:3134)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (7680:3134)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (7680:3134)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (7680:3134)]     Analyzer Module: local_server (value=)
+[Network Analyzer (7680:3134)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7680:696c)] Address lookup for Svoy = 192.168.56.1
+[Net An. Debug    (7680:696c)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.31.160
+[API Trapper      (119c:6a60)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (7680:3134)] Establish Listener @ 127.0.0.1:60329
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 127.0.0.1:60329   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 14 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.117.188.166:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.149.100.209:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:8704)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.117.188.166:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:6d5c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.160.144.191:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /"   
+[Network Analyzer (7680:696c)]   (Sid:  3) Client -> Server @ : 436 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:387c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 1856 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:6734)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:6734)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /canonical.html"   
+[Network Analyzer (7680:696c)]   (Sid:  8) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  8) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (7680:39e8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 35.244.181.201:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/css/2.b26b6ae6.chunk.css"   
+[Network Analyzer (7680:696c)]   (Sid:  3) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 366 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 2872 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 10052 bytes  (Service=HTTP)
+[Network Analyzer (7680:1eb4)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 8616 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 8616 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 8616 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 2872 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 2872 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  3) Server -> Client : 6538 bytes  (Service=HTTP)
+[Network Analyzer (7680:700c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 212.188.32.130:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 12) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:1eb4)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 212.188.32.130:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 13) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (7680:6d5c)] SSLAccept(ssl_id = 2429272814096 = 000002359BF17210) Failed, ctx = 000002359BE82580, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate
+" 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Net An. Error    (7680:6d5c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7680:8704)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:387c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:39e8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 12) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /v1/tiles"   
+[Network Analyzer (7680:696c)]   (Sid:  4) Client -> Server @ : 304 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /chains/remote-settings.content-signature.mozilla.org-2024-08-29-13-50-59.chain"   
+[Network Analyzer (7680:696c)]   (Sid:  7) Client -> Server @ : 366 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /v1/"   
+[Network Analyzer (7680:696c)]   (Sid:  5) Client -> Server @ : 308 bytes (SSL)(Service=HTTP)
+[Web Request      (7680:696c)] "GET /"   
+[Network Analyzer (7680:696c)]   (Sid:  9) Client -> Server @ : 631 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/js/2.7c253607.chunk.js"   
+[Network Analyzer (7680:696c)]   (Sid: 16) Client -> Server @ : 349 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/js/main.e989115e.chunk.js"   
+[Network Analyzer (7680:696c)]   (Sid: 15) Client -> Server @ : 352 bytes (Service=HTTP)
+[Web Request      (7680:696c)] "GET /static/css/main.91169c33.chunk.css"   
+[Network Analyzer (7680:696c)]   (Sid: 14) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /canonical.html"   
+[Network Analyzer (7680:696c)]   (Sid:  8) Client -> Server @ : 324 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 12) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 1815 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 13) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 14) Server -> Client : 667 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 15) Server -> Client : 12641 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 11488 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  5) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  7) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  5) Server -> Client : 39 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  7) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  8) Server -> Client : 298 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  7) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 12336 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  7) Server -> Client : 1390 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  7) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 8288 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 8876 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 12) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 7700 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 2872 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 14360 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 13772 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 6592 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 2544 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 8600 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 7180 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 2872 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 4308 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 10052 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 16) Server -> Client : 2712 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  9) Server -> Client : 240 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  4) Server -> Client : 138 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 212.188.32.130:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 17) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 212.188.32.130:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 212.188.32.130:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 17) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /success.txt?ipv4"   
+[Network Analyzer (7680:696c)]   (Sid: 20) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 19) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 20) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 19) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /logo192.png"   
+[Network Analyzer (7680:696c)]   (Sid: 23) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 20) Connection Terminated (by Client)
+[Web Request      (7680:696c)] "GET /favicon.ico"   
+[Network Analyzer (7680:696c)]   (Sid: 22) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 23) Server -> Client : 14360 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 22) Server -> Client : 1782 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 22) Server -> Client : 3290 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 23) Server -> Client : 3077 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]    (Sid:  9) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (7680:696c)]   (Sid:  9) Server -> Client : 20 bytes (SSL) (Service=WEBS)
+[Network Analyzer (7680:696c)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 192.229.221.95:80   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 24) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 192.229.221.95:80   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:700c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 21) Connection Terminated (by Client)
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 25) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 24) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 18) Connection Terminated (by Client)
+[Web Request      (7680:696c)] "GET /update/6/Firefox/128.0.3/20240725162350/WINNT_x86_64-msvc-x64/ru/release/Windows_NT%252010.0.0.0.22631.3880%2520(x64)/ISET%3ASSE4_2%2CMEM%3A15770/default/default/update.xml?force=1"   
+[Network Analyzer (7680:696c)]   (Sid: 11) Client -> Server @ : 492 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /logo192.png"   
+[Network Analyzer (7680:696c)]   (Sid: 26) Client -> Server @ : 415 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 26) Server -> Client : 12924 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 26) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 192.229.221.95:80   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid: 26) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 26) Server -> Client : 1641 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.203:4879   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "OPTIONS /ws/bank.wsdl"   
+[Network Analyzer (7680:696c)]   (Sid: 29) Client -> Server @ : 469 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /success.txt?ipv4"   
+[Network Analyzer (7680:696c)]   (Sid: 28) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 29) Server -> Client : 551 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.203:4879   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 28) Server -> Client : 216 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 25) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (7680:696c)] "GET /ws/bank.wsdl"   
+[Network Analyzer (7680:696c)]   (Sid: 30) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 11) Server -> Client : 466 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 11) Server -> Client : 572 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 30) Server -> Client : 509 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 13) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /"   
+[Network Analyzer (7680:696c)]   (Sid: 12) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:22c0)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:22c0)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /submit/firefox-desktop/use-counters/1/3afe1935-6700-4f1b-b5fb-39adab167773"   
+[Network Analyzer (7680:696c)]   (Sid: 32) Client -> Server @ : 3129 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 13) Server -> Client : 889 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 12) Server -> Client : 890 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /submit/firefox-desktop/pageload/1/a4810a33-f402-46a5-beee-82b17427291a"   
+[Network Analyzer (7680:696c)]   (Sid: 32) Client -> Server @ : 1248 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 47 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /submit/firefox-desktop/newtab/1/29430803-638b-4103-bd29-3c329730a8d4"   
+[Network Analyzer (7680:696c)]   (Sid: 32) Client -> Server @ : 1139 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 202 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /submit/firefox-desktop/baseline/1/1ad20b89-9dfd-40f3-bd48-db09c103eafe"   
+[Network Analyzer (7680:696c)]   (Sid: 32) Client -> Server @ : 1521 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 150 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /submit/firefox-desktop/events/1/7e71e283-e908-43e9-8025-03d9eb1d5b4e"   
+[Network Analyzer (7680:696c)]   (Sid: 32) Client -> Server @ : 1870 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 676 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 32) Server -> Client : 81 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 34.107.243.93:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (7680:51e8)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:51e8)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /"   
+[Network Analyzer (7680:696c)]   (Sid: 33) Client -> Server @ : 631 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 33) Server -> Client : 240 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 33) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (7680:696c)]   (Sid: 33) Client -> Server @ : 117 bytes (SSL)(Service=WEBS)
+[Network Analyzer (7680:696c)]   (Sid: 33) Server -> Client : 115 bytes (SSL) (Service=WEBS)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  7) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent UC03_T01_userLogin [Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.203:4879   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "OPTIONS /login"   
+[Network Analyzer (7680:696c)]   (Sid: 34) Client -> Server @ : 462 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 550 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.203:4879   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /login"   
+[Network Analyzer (7680:696c)]   (Sid: 35) Client -> Server @ : 505 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 35) Server -> Client : 689 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /"   
+[Network Analyzer (7680:696c)]   (Sid: 36) Client -> Server @ : 721 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 36) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/css/2.b26b6ae6.chunk.css"   
+[Network Analyzer (7680:696c)]   (Sid: 36) Client -> Server @ : 666 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 36) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/css/main.91169c33.chunk.css"   
+[Network Analyzer (7680:696c)]   (Sid: 37) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid: 37) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /static/js/2.7c253607.chunk.js"   
+[Network Analyzer (7680:696c)]   (Sid: 38) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (7680:696c)] "GET /static/js/main.e989115e.chunk.js"   
+[Network Analyzer (7680:696c)]   (Sid: 37) Client -> Server @ : 637 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 38) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 37) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /logo192.png"   
+[Network Analyzer (7680:696c)]   (Sid: 39) Client -> Server @ : 697 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "GET /ws/bank.wsdl"   
+[Network Analyzer (7680:696c)]   (Sid: 34) Client -> Server @ : 633 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 39) Server -> Client : 113 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 12500 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 2548 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 36) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 38) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid: 39) Connection Terminated (by Server)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[User action                 ] EndTransactionEvent UC03_T01_userLogin [User action                 ] StartTransactionEvent UC03_T02_accountDeposit [Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:3134)] Address lookup for Svoy = 192.168.56.1
+[Network Analyzer (7680:3134)] Request Connection: Remote Server @ 77.50.236.214:42030   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "OPTIONS /user/12030/money/1000"   
+[Network Analyzer (7680:696c)]   (Sid: 34) Client -> Server @ : 479 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 551 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (7680:696c)] "POST /user/12030/money/1000"   
+[Network Analyzer (7680:696c)]   (Sid: 34) Client -> Server @ : 677 bytes (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 34) Server -> Client : 579 bytes  (Service=HTTP)
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (7680:696c)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (7680:696c)]   (Sid: 35) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent UC03_T02_accountDeposit 
