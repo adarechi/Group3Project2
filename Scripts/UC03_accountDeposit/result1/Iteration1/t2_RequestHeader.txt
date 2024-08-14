@@ -1,0 +1,16 @@
+OPTIONS /login HTTP/1.1
+Referer: http://77.50.236.214:42030/
+Access-Control-Request-Headers: content-type
+Access-Control-Request-Method: POST
+DNT: 1
+Sec-GPC: 1
+Origin: http://77.50.236.214:42030
+Priority: u=4
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 77.50.236.203:4879
+Content-Length: 0
+

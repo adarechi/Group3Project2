@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\PerfLabStuff\Проект2\lr_scripts\UC03_accountDeposit
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\perflabstuff\проект2\lr_scripts\uc03_accountdeposit\\logfile.log
+c:\perflabstuff\проект2\lr_scripts\uc03_accountdeposit\\combined_UC03_accountDeposit.c
+c:\perflabstuff\проект2\lr_scripts\uc03_accountdeposit\\pre_cci.c

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\PerfLabStuff\Проект2\lr_scripts\UC04_carPurchase
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\perflabstuff\проект2\lr_scripts\uc04_carpurchase\\logfile.log
+c:\perflabstuff\проект2\lr_scripts\uc04_carpurchase\\combined_UC04_carPurchase.c
+c:\perflabstuff\проект2\lr_scripts\uc04_carpurchase\\pre_cci.c

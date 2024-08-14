@@ -1,0 +1,15 @@
+OPTIONS /house/1/settle/5 HTTP/1.1
+Host: 77.50.236.203:4879
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: authorization
+Referer: http://77.50.236.214:42030/
+Origin: http://77.50.236.214:42030
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Priority: u=4
+

@@ -1,0 +1,17 @@
+HTTP/1.1 202 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Content-Length: 231
+Date: Tue, 13 Aug 2024 07:31:12 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+

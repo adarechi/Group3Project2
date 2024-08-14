@@ -1,0 +1,467 @@
+2000
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://spring.io/guides/gs-producing-web-service" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://spring.io/guides/gs-producing-web-service" targetNamespace="http://spring.io/guides/gs-producing-web-service">
+  <wsdl:types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://spring.io/guides/gs-producing-web-service">
+
+    <!--CARDS-->
+
+    <xs:element name="getCardRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addCardRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="card" type="tns:newCard"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCardResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="card" type="tns:card"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addCardResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="card" type="tns:card"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="card">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="cardNumber" type="tns:cardNumber"/>
+            <xs:element name="expiration" type="xs:gYearMonth"/>
+            <xs:element name="cvv" type="tns:cvv"/>
+            <xs:element name="balance" type="xs:double"/>
+            <xs:element name="debt" type="xs:double"/>
+            <xs:element name="clientId" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="newCard">
+        <xs:sequence>
+            <xs:element name="cardNumber" type="tns:cardNumber"/>
+            <xs:element name="expiration" type="xs:gYearMonth"/>
+            <xs:element name="cvv" type="tns:cvv"/>
+            <xs:element name="balance" type="xs:double"/>
+            <xs:element name="debt" type="xs:double"/>
+            <xs:element name="clientId" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="cardNumber">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{16}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="cvv">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--CLIENTS-->
+
+    <xs:element name="getClientRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addClientRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client" type="tns:newClient"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getClientResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client" type="tns:client"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addClientResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="client" type="tns:client"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="client">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="patronymic" type="xs:string"/>
+            <xs:element name="gender" type="tns:gender"/>
+            <xs:element name="inn" type="tns:inn_type"/>
+            <xs:element name="birthday" type="xs:date"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="newClient">
+        <xs:sequence>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="patronymic" type="xs:string"/>
+            <xs:element name="gender" type="tns:gender"/>
+            <xs:element name="inn" type="tns:inn_type"/>
+            <xs:element name="birthday" type="xs:date"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="gender">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="male"/>
+            <xs:enumeration value="female"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="inn_type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--CREDITS-->
+
+    <xs:element name="getCreditApplicationRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCreditApplicationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="creditApplication" type="tns:creditApplication"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addCreditApplicationRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="creditApplication" type="tns:newCreditApplication"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addCreditApplicationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="creditApplication" type="tns:creditApplication"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCreditApplicationViewRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCreditApplicationViewResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="creditApplicationView" type="tns:creditApplicationView"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="handleCreditApplicationByIdRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="creditApplicationId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="handleCreditApplicationByIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="xs:double"/>
+                <xs:element name="creditApplicationView" type="tns:creditApplicationView"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="creditApplication">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="loan" type="xs:double"/>
+            <xs:element name="salary" type="xs:double"/>
+            <xs:element name="haveChildren" type="xs:boolean"/>
+            <xs:element name="married" type="xs:boolean"/>
+            <xs:element name="loanPeriod" type="tns:loanPeriod"/>
+            <xs:element name="stage" type="tns:stage"/>
+            <xs:element name="clientId" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="newCreditApplication">
+        <xs:sequence>
+            <xs:element name="loan" type="xs:double"/>
+            <xs:element name="salary" type="xs:double"/>
+            <xs:element name="haveChildren" type="xs:boolean"/>
+            <xs:element name="married" type="xs:boolean"/>
+            <xs:element name="loanPeriod" type="tns:loanPeriod"/>
+            <xs:element name="clientId" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType na
+2000
+me="creditApplicationView">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="fio" type="xs:string"/>
+            <xs:element name="loan" type="xs:double"/>
+            <xs:element name="salary" type="xs:double"/>
+            <xs:element name="haveChildren" type="xs:boolean"/>
+            <xs:element name="married" type="xs:boolean"/>
+            <xs:element name="loanPeriod" type="tns:loanPeriod"/>
+            <xs:element name="stage" type="tns:stage"/>
+            <xs:element name="clientId" type="xs:long"/>
+            <xs:element name="debt" type="xs:double"/>
+            <xs:element name="available_limit" type="xs:double"/>
+            <xs:element name="age" type="xs:long"/>
+            <xs:element name="gender" type="tns:gender"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="loanPeriod">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{1,2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="stage">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="created"/>
+            <xs:enumeration value="processed"/>
+            <xs:enumeration value="accepted"/>
+            <xs:enumeration value="declined"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="addCardRequest">
+    <wsdl:part element="tns:addCardRequest" name="addCardRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getClientResponse">
+    <wsdl:part element="tns:getClientResponse" name="getClientResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCreditApplicationResponse">
+    <wsdl:part element="tns:getCreditApplicationResponse" name="getCreditApplicationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCreditApplicationViewResponse">
+    <wsdl:part element="tns:getCreditApplicationViewResponse" name="getCreditApplicationViewResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addClientRequest">
+    <wsdl:part element="tns:addClientRequest" name="addClientRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCardRequest">
+    <wsdl:part element="tns:getCardRequest" name="getCardRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addCreditApplicationResponse">
+    <wsdl:part element="tns:addCreditApplicationResponse" name="addCreditApplicationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getClientRequest">
+    <wsdl:part element="tns:getClientRequest" name="getClientRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addClientResponse">
+    <wsdl:part element="tns:addClientResponse" name="addClientResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCreditApplicationRequest">
+    <wsdl:part element="tns:getCreditApplicationRequest" name="getCreditApplicationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addCreditApplicationRequest">
+    <wsdl:part element="tns:addCreditApplicationRequest" name="addCreditApplicationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="handleCreditApplicationByIdRequest">
+    <wsdl:part element="tns:handleCreditApplicationByIdRequest" name="handleCreditApplicationByIdRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCardResponse">
+    <wsdl:part element="tns:getCardResponse" name="getCardResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addCardResponse">
+    <wsdl:part element="tns:addCardResponse" name="addCardResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCreditApplicationViewRequest">
+    <wsdl:part element="tns:getCreditApplicationViewRequest" name="getCreditApplicationViewRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="handleCreditApplicationByIdResponse">
+    <wsdl:part element="tns:handleCreditApplicationByIdResponse" name="handleCreditApplicationByIdResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="BankPort">
+    <wsdl:operation name="addCard">
+      <wsdl:input message="tns:addCardRequest" name="addCardRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:addCardResponse" name="addCardResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClient">
+      <wsdl:input message="tns:getClientRequest" name="getClientRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:getClientResponse" name="getClientResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCreditApplication">
+      <wsdl:input message="tns:getCreditApplicationRequest" name="getCreditApplicationRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:getCreditApplicationResponse" name="getCreditApplicationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCreditApplicationView">
+      <wsdl:input message="tns:getCreditApplicationViewRequest" name="getCreditApplicationViewRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:getCreditApplicationViewResponse" name="getCreditApplicationViewResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addClient">
+      <wsdl:input message="tns:addClientRequest" name="addClientRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:addClientResponse" name="addClientResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCard">
+      <wsdl:input message="tns:getCardRequest" name="getCardRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:getCardResponse" name="getCardResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCreditApplication">
+      <wsdl:input message="tns:addCreditApplicationRequest" name="addCreditApplicationRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:addCreditApplicationResponse" name="addCreditApplicationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="handleCreditApplicationById">
+      <wsdl:input message="tns:handleCreditApplicationByIdRequest" name="handleCreditApplicationByIdRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:handleCreditApplicationByIdResponse" name="handleCreditApplicationByIdResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BankPortSoap11" type="tns:BankPort">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="addCard">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="addCardRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addCardResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClient">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="getClientRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getClientResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCreditApplication">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="getCreditApplicationRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCreditApplicationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCreditApplicationView">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="getCreditApplicationViewRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCreditApplicationViewResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addClient">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="addClientRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addClientResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCard">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="getCardRequest">
+        <soap:body use="literal"/>
+      </wsdl
+41b
+:input>
+      <wsdl:output name="getCardResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCreditApplication">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="addCreditApplicationRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addCreditApplicationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="handleCreditApplicationById">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="handleCreditApplicationByIdRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="handleCreditApplicationByIdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BankPortService">
+    <wsdl:port binding="tns:BankPortSoap11" name="BankPortSoap11">
+      <soap:address location="http://77.50.236.203:4879/ws"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
+0
+
