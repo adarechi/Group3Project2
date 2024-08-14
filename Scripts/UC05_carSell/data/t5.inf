@@ -1,9 +1,0 @@
-[t5]
-FileName1=t5.html
-URL1=http://77.50.236.214:42030/
-Total=1
-RequestHeaderFile=t5_RequestHeader.txt
-RequestBodyFile=NONE
-ResponseHeaderFile=t5_ResponseHeader.txt
-ContentType=
-SnapshotXmlFile=snapshot_5.xml

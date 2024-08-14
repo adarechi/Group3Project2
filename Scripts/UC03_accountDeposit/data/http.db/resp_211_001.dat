@@ -1,1 +1,0 @@
-{"metadata":{"bucket":"monitor"},"timestamp":1723561029198,"changes":[{"id":"eae22ba6-631d-fcab-fa53-8a7c5adb39a9","last_modified":1723561029198,"bucket":"security-state","collection":"cert-revocations","host":"firefox.settings.services.mozilla.com"}]}
